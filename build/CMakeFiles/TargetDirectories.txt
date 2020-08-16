@@ -1,0 +1,7 @@
+C:/Users/fdfra/Documents/GitHub/Ex6_Wolf/build/CMakeFiles/INSTALL.dir
+C:/Users/fdfra/Documents/GitHub/Ex6_Wolf/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/fdfra/Documents/GitHub/Ex6_Wolf/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/fdfra/Documents/GitHub/Ex6_Wolf/build/src/CMakeFiles/SRE.dir
+C:/Users/fdfra/Documents/GitHub/Ex6_Wolf/build/src/CMakeFiles/INSTALL.dir
+C:/Users/fdfra/Documents/GitHub/Ex6_Wolf/build/Wolf/CMakeFiles/Exercise6-Wolf3D.dir
+C:/Users/fdfra/Documents/GitHub/Ex6_Wolf/build/Wolf/CMakeFiles/INSTALL.dir
