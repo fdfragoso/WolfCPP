@@ -1,1 +1,1547 @@
-﻿  Exercise6-Wolf3D.vcxproj -> C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\build\Wolf\Debug\Exercise6-Wolf3D.exe
+﻿  Building Custom Rule C:/Users/fdfra/Documents/GitHub/Ex6_Wolf/Wolf/CMakeLists.txt
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27032.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\thirdparty\Win\SDL2-2.0.6\include" /I"C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\thirdparty\Win\glew-2.1.0\include" /I"C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\thirdparty\Win\SDL2_image-2.0.1\include" /I"C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\thirdparty\Win\SDL2_mixer-2.0.1\include" /IC:\Users\fdfra\Documents\GitHub\Ex6_Wolf\thirdparty\Win\Box2D\include /IC:\Users\fdfra\Documents\GitHub\Ex6_Wolf\thirdparty\Win\Lua\include /IC:\Users\fdfra\Documents\GitHub\Ex6_Wolf\thirdparty\Sol\include /IC:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"Exercise6-Wolf3D.dir\Debug\\" /Fd"Exercise6-Wolf3D.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:prompt C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\Wolf\FirstPersonController.cpp Component.cpp GameObject.cpp C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\Wolf\Wolf3D.cpp C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\Wolf\WorldMap.cpp
+  
+  FirstPersonController.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(626): warning C4251: 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>::_Mypair': class 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>'
+          with
+          [
+              _Ty=int,
+              _Alloc=std::allocator<int>
+          ]
+          and
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty=int,
+              _Alloc=std::allocator<int>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(605): note: see declaration of 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=int
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/impl/Export.hpp(32): note: see reference to class template instantiation 'std::vector<int,std::allocator<_Ty>>' being compiled
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(626): warning C4251: 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>::_Mypair': class 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>'
+          with
+          [
+              _Ty=float,
+              _Alloc=std::allocator<float>
+          ]
+          and
+          [
+              _Ty=float
+          ]
+          and
+          [
+              _Ty=float,
+              _Alloc=std::allocator<float>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(605): note: see declaration of 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=float
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/impl/Export.hpp(33): note: see reference to class template instantiation 'std::vector<float,std::allocator<_Ty>>' being compiled
+          with
+          [
+              _Ty=float
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(626): warning C4251: 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>::_Mypair': class 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>'
+          with
+          [
+              _Ty=uint16_t,
+              _Alloc=std::allocator<uint16_t>
+          ]
+          and
+          [
+              _Ty=uint16_t
+          ]
+          and
+          [
+              _Ty=uint16_t,
+              _Alloc=std::allocator<uint16_t>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(605): note: see declaration of 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=uint16_t
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/impl/Export.hpp(34): note: see reference to class template instantiation 'std::vector<uint16_t,std::allocator<_Ty>>' being compiled
+          with
+          [
+              _Ty=uint16_t
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(626): warning C4251: 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>::_Mypair': class 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>'
+          with
+          [
+              _Ty=glm::vec2,
+              _Alloc=std::allocator<glm::vec2>
+          ]
+          and
+          [
+              _Ty=glm::vec2
+          ]
+          and
+          [
+              _Ty=glm::vec2,
+              _Alloc=std::allocator<glm::vec2>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(605): note: see declaration of 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=glm::vec2
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/impl/Export.hpp(35): note: see reference to class template instantiation 'std::vector<glm::vec2,std::allocator<_Ty>>' being compiled
+          with
+          [
+              _Ty=glm::vec2
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(626): warning C4251: 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>::_Mypair': class 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>'
+          with
+          [
+              _Ty=glm::vec3,
+              _Alloc=std::allocator<glm::vec3>
+          ]
+          and
+          [
+              _Ty=glm::vec3
+          ]
+          and
+          [
+              _Ty=glm::vec3,
+              _Alloc=std::allocator<glm::vec3>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(605): note: see declaration of 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=glm::vec3
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/impl/Export.hpp(36): note: see reference to class template instantiation 'std::vector<glm::vec3,std::allocator<_Ty>>' being compiled
+          with
+          [
+              _Ty=glm::vec3
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(626): warning C4251: 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>::_Mypair': class 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>'
+          with
+          [
+              _Ty=glm::vec4,
+              _Alloc=std::allocator<glm::vec4>
+          ]
+          and
+          [
+              _Ty=glm::vec4
+          ]
+          and
+          [
+              _Ty=glm::vec4,
+              _Alloc=std::allocator<glm::vec4>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(605): note: see declaration of 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=glm::vec4
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/impl/Export.hpp(37): note: see reference to class template instantiation 'std::vector<glm::vec4,std::allocator<_Ty>>' being compiled
+          with
+          [
+              _Ty=glm::vec4
+          ]
+  Component.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(626): warning C4251: 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>::_Mypair': class 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>'
+          with
+          [
+              _Ty=int,
+              _Alloc=std::allocator<int>
+          ]
+          and
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty=int,
+              _Alloc=std::allocator<int>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(605): note: see declaration of 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=int
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/impl/Export.hpp(32): note: see reference to class template instantiation 'std::vector<int,std::allocator<_Ty>>' being compiled
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(626): warning C4251: 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>::_Mypair': class 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>'
+          with
+          [
+              _Ty=float,
+              _Alloc=std::allocator<float>
+          ]
+          and
+          [
+              _Ty=float
+          ]
+          and
+          [
+              _Ty=float,
+              _Alloc=std::allocator<float>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(605): note: see declaration of 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=float
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/impl/Export.hpp(33): note: see reference to class template instantiation 'std::vector<float,std::allocator<_Ty>>' being compiled
+          with
+          [
+              _Ty=float
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(626): warning C4251: 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>::_Mypair': class 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>'
+          with
+          [
+              _Ty=uint16_t,
+              _Alloc=std::allocator<uint16_t>
+          ]
+          and
+          [
+              _Ty=uint16_t
+          ]
+          and
+          [
+              _Ty=uint16_t,
+              _Alloc=std::allocator<uint16_t>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(605): note: see declaration of 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=uint16_t
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/impl/Export.hpp(34): note: see reference to class template instantiation 'std::vector<uint16_t,std::allocator<_Ty>>' being compiled
+          with
+          [
+              _Ty=uint16_t
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(626): warning C4251: 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>::_Mypair': class 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>'
+          with
+          [
+              _Ty=glm::vec2,
+              _Alloc=std::allocator<glm::vec2>
+          ]
+          and
+          [
+              _Ty=glm::vec2
+          ]
+          and
+          [
+              _Ty=glm::vec2,
+              _Alloc=std::allocator<glm::vec2>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(605): note: see declaration of 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=glm::vec2
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/impl/Export.hpp(35): note: see reference to class template instantiation 'std::vector<glm::vec2,std::allocator<_Ty>>' being compiled
+          with
+          [
+              _Ty=glm::vec2
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(626): warning C4251: 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>::_Mypair': class 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>'
+          with
+          [
+              _Ty=glm::vec3,
+              _Alloc=std::allocator<glm::vec3>
+          ]
+          and
+          [
+              _Ty=glm::vec3
+          ]
+          and
+          [
+              _Ty=glm::vec3,
+              _Alloc=std::allocator<glm::vec3>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(605): note: see declaration of 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=glm::vec3
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/impl/Export.hpp(36): note: see reference to class template instantiation 'std::vector<glm::vec3,std::allocator<_Ty>>' being compiled
+          with
+          [
+              _Ty=glm::vec3
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(626): warning C4251: 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>::_Mypair': class 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>'
+          with
+          [
+              _Ty=glm::vec4,
+              _Alloc=std::allocator<glm::vec4>
+          ]
+          and
+          [
+              _Ty=glm::vec4
+          ]
+          and
+          [
+              _Ty=glm::vec4,
+              _Alloc=std::allocator<glm::vec4>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(605): note: see declaration of 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=glm::vec4
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/impl/Export.hpp(37): note: see reference to class template instantiation 'std::vector<glm::vec4,std::allocator<_Ty>>' being compiled
+          with
+          [
+              _Ty=glm::vec4
+          ]
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/WorldLights.hpp(27): warning C4251: 'sre::WorldLights::lights': class 'std::vector<sre::Light,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'sre::WorldLights'
+          with
+          [
+              _Ty=sre::Light
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/WorldLights.hpp(27): note: see declaration of 'std::vector<sre::Light,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=sre::Light
+          ]
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Shader.hpp(43): warning C4251: 'sre::Uniform::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'sre::Uniform'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Shader.hpp(81): warning C4251: 'std::enable_shared_from_this<sre::Shader>::_Wptr': class 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of class 'std::enable_shared_from_this<sre::Shader>'
+          with
+          [
+              _Ty=sre::Shader
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\memory(2029): note: see declaration of 'std::weak_ptr<_Ty>'
+          with
+          [
+              _Ty=sre::Shader
+          ]
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Shader.hpp(103): warning C4251: 'sre::Shader::ShaderBuilder::vertexShaderStr': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'sre::Shader::ShaderBuilder'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Shader.hpp(104): warning C4251: 'sre::Shader::ShaderBuilder::fragmentShaderStr': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'sre::Shader::ShaderBuilder'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Shader.hpp(108): warning C4251: 'sre::Shader::ShaderBuilder::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'sre::Shader::ShaderBuilder'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Shader.hpp(176): warning C4251: 'sre::Shader::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'sre::Shader'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Shader.hpp(180): warning C4251: 'sre::Shader::uniforms': class 'std::vector<sre::Uniform,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'sre::Shader'
+          with
+          [
+              _Ty=sre::Uniform
+          ]
+  c:\users\fdfra\documents\github\ex6_wolf\include\sre\Shader.hpp(180): note: see declaration of 'std::vector<sre::Uniform,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=sre::Uniform
+          ]
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Shader.hpp(188): warning C4251: 'sre::Shader::attributes': class 'std::map<std::string,sre::Shader::ShaderAttribute,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'sre::Shader'
+          with
+          [
+              _Kty=std::string,
+              _Ty=sre::Shader::ShaderAttribute
+          ]
+  c:\users\fdfra\documents\github\ex6_wolf\include\sre\Shader.hpp(188): note: see declaration of 'std::map<std::string,sre::Shader::ShaderAttribute,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=std::string,
+              _Ty=sre::Shader::ShaderAttribute
+          ]
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(40): warning C4251: 'std::enable_shared_from_this<sre::Mesh>::_Wptr': class 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of class 'std::enable_shared_from_this<sre::Mesh>'
+          with
+          [
+              _Ty=sre::Mesh
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\memory(2029): note: see declaration of 'std::weak_ptr<_Ty>'
+          with
+          [
+              _Ty=sre::Mesh
+          ]
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(73): warning C4251: 'sre::Mesh::MeshBuilder::attributesFloat': class 'std::map<std::string,std::vector<float,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of class 'sre::Mesh::MeshBuilder'
+          with
+          [
+              _Ty=float,
+              _Kty=std::string
+          ]
+  c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(73): note: see declaration of 'std::map<std::string,std::vector<float,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=float,
+              _Kty=std::string
+          ]
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(74): warning C4251: 'sre::Mesh::MeshBuilder::attributesVec2': class 'std::map<std::string,std::vector<glm::vec2,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of class 'sre::Mesh::MeshBuilder'
+          with
+          [
+              _Ty=glm::vec2,
+              _Kty=std::string
+          ]
+  c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(74): note: see declaration of 'std::map<std::string,std::vector<glm::vec2,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=glm::vec2,
+              _Kty=std::string
+          ]
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(75): warning C4251: 'sre::Mesh::MeshBuilder::attributesVec3': class 'std::map<std::string,std::vector<glm::vec3,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of class 'sre::Mesh::MeshBuilder'
+          with
+          [
+              _Ty=glm::vec3,
+              _Kty=std::string
+          ]
+  c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(75): note: see declaration of 'std::map<std::string,std::vector<glm::vec3,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=glm::vec3,
+              _Kty=std::string
+          ]
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(76): warning C4251: 'sre::Mesh::MeshBuilder::attributesVec4': class 'std::map<std::string,std::vector<glm::vec4,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of class 'sre::Mesh::MeshBuilder'
+          with
+          [
+              _Ty=glm::vec4,
+              _Kty=std::string
+          ]
+  c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(76): note: see declaration of 'std::map<std::string,std::vector<glm::vec4,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=glm::vec4,
+              _Kty=std::string
+          ]
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(77): warning C4251: 'sre::Mesh::MeshBuilder::attributesIVec4': class 'std::map<std::string,std::vector<glm::i32vec4,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of class 'sre::Mesh::MeshBuilder'
+          with
+          [
+              _Ty=glm::i32vec4,
+              _Kty=std::string
+          ]
+  c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(77): note: see declaration of 'std::map<std::string,std::vector<glm::i32vec4,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=glm::i32vec4,
+              _Kty=std::string
+          ]
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(78): warning C4251: 'sre::Mesh::MeshBuilder::meshTopology': class 'std::vector<sre::MeshTopology,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'sre::Mesh::MeshBuilder'
+          with
+          [
+              _Ty=sre::MeshTopology
+          ]
+  c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(78): note: see declaration of 'std::vector<sre::MeshTopology,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=sre::MeshTopology
+          ]
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(79): warning C4251: 'sre::Mesh::MeshBuilder::indices': class 'std::vector<std::vector<uint16_t,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>' needs to have dll-interface to be used by clients of class 'sre::Mesh::MeshBuilder'
+          with
+          [
+              _Ty=uint16_t
+          ]
+  c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(79): note: see declaration of 'std::vector<std::vector<uint16_t,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>'
+          with
+          [
+              _Ty=uint16_t
+          ]
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(81): warning C4251: 'sre::Mesh::MeshBuilder::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'sre::Mesh::MeshBuilder'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(132): warning C4251: 'sre::Mesh::meshTopology': class 'std::vector<sre::MeshTopology,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'sre::Mesh'
+          with
+          [
+              _Ty=sre::MeshTopology
+          ]
+  c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(78): note: see declaration of 'std::vector<sre::MeshTopology,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=sre::MeshTopology
+          ]
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(134): warning C4251: 'sre::Mesh::shaderToVertexArrayObject': class 'std::map<unsigned int,unsigned int,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'sre::Mesh'
+          with
+          [
+              _Kty=unsigned int,
+              _Ty=unsigned int
+          ]
+  c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(134): note: see declaration of 'std::map<unsigned int,unsigned int,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=unsigned int,
+              _Ty=unsigned int
+          ]
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(135): warning C4251: 'sre::Mesh::elementBufferId': class 'std::vector<unsigned int,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'sre::Mesh'
+          with
+          [
+              _Ty=unsigned int
+          ]
+  c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(135): note: see declaration of 'std::vector<unsigned int,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=unsigned int
+          ]
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(138): warning C4251: 'sre::Mesh::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'sre::Mesh'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(139): warning C4251: 'sre::Mesh::attributeByName': class 'std::map<std::string,sre::Mesh::Attribute,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'sre::Mesh'
+          with
+          [
+              _Kty=std::string,
+              _Ty=sre::Mesh::Attribute
+          ]
+  c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(139): note: see declaration of 'std::map<std::string,sre::Mesh::Attribute,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=std::string,
+              _Ty=sre::Mesh::Attribute
+          ]
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(140): warning C4251: 'sre::Mesh::attributesFloat': class 'std::map<std::string,std::vector<float,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of class 'sre::Mesh'
+          with
+          [
+              _Ty=float,
+              _Kty=std::string
+          ]
+  c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(73): note: see declaration of 'std::map<std::string,std::vector<float,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=float,
+              _Kty=std::string
+          ]
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(141): warning C4251: 'sre::Mesh::attributesVec2': class 'std::map<std::string,std::vector<glm::vec2,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of class 'sre::Mesh'
+          with
+          [
+              _Ty=glm::vec2,
+              _Kty=std::string
+          ]
+  c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(74): note: see declaration of 'std::map<std::string,std::vector<glm::vec2,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=glm::vec2,
+              _Kty=std::string
+          ]
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(142): warning C4251: 'sre::Mesh::attributesVec3': class 'std::map<std::string,std::vector<glm::vec3,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of class 'sre::Mesh'
+          with
+          [
+              _Ty=glm::vec3,
+              _Kty=std::string
+          ]
+  c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(75): note: see declaration of 'std::map<std::string,std::vector<glm::vec3,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=glm::vec3,
+              _Kty=std::string
+          ]
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(143): warning C4251: 'sre::Mesh::attributesVec4': class 'std::map<std::string,std::vector<glm::vec4,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of class 'sre::Mesh'
+          with
+          [
+              _Ty=glm::vec4,
+              _Kty=std::string
+          ]
+  c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(76): note: see declaration of 'std::map<std::string,std::vector<glm::vec4,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=glm::vec4,
+              _Kty=std::string
+          ]
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(144): warning C4251: 'sre::Mesh::attributesIVec4': class 'std::map<std::string,std::vector<glm::i32vec4,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of class 'sre::Mesh'
+          with
+          [
+              _Ty=glm::i32vec4,
+              _Kty=std::string
+          ]
+  c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(77): note: see declaration of 'std::map<std::string,std::vector<glm::i32vec4,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=glm::i32vec4,
+              _Kty=std::string
+          ]
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(146): warning C4251: 'sre::Mesh::indices': class 'std::vector<std::vector<uint16_t,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>' needs to have dll-interface to be used by clients of class 'sre::Mesh'
+          with
+          [
+              _Ty=uint16_t
+          ]
+  c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(79): note: see declaration of 'std::vector<std::vector<uint16_t,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>'
+          with
+          [
+              _Ty=uint16_t
+          ]
+  GameObject.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(626): warning C4251: 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>::_Mypair': class 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>'
+          with
+          [
+              _Ty=int,
+              _Alloc=std::allocator<int>
+          ]
+          and
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty=int,
+              _Alloc=std::allocator<int>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(605): note: see declaration of 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=int
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/impl/Export.hpp(32): note: see reference to class template instantiation 'std::vector<int,std::allocator<_Ty>>' being compiled
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(626): warning C4251: 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>::_Mypair': class 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>'
+          with
+          [
+              _Ty=float,
+              _Alloc=std::allocator<float>
+          ]
+          and
+          [
+              _Ty=float
+          ]
+          and
+          [
+              _Ty=float,
+              _Alloc=std::allocator<float>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(605): note: see declaration of 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=float
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/impl/Export.hpp(33): note: see reference to class template instantiation 'std::vector<float,std::allocator<_Ty>>' being compiled
+          with
+          [
+              _Ty=float
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(626): warning C4251: 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>::_Mypair': class 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>'
+          with
+          [
+              _Ty=uint16_t,
+              _Alloc=std::allocator<uint16_t>
+          ]
+          and
+          [
+              _Ty=uint16_t
+          ]
+          and
+          [
+              _Ty=uint16_t,
+              _Alloc=std::allocator<uint16_t>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(605): note: see declaration of 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=uint16_t
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/impl/Export.hpp(34): note: see reference to class template instantiation 'std::vector<uint16_t,std::allocator<_Ty>>' being compiled
+          with
+          [
+              _Ty=uint16_t
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(626): warning C4251: 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>::_Mypair': class 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>'
+          with
+          [
+              _Ty=glm::vec2,
+              _Alloc=std::allocator<glm::vec2>
+          ]
+          and
+          [
+              _Ty=glm::vec2
+          ]
+          and
+          [
+              _Ty=glm::vec2,
+              _Alloc=std::allocator<glm::vec2>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(605): note: see declaration of 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=glm::vec2
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/impl/Export.hpp(35): note: see reference to class template instantiation 'std::vector<glm::vec2,std::allocator<_Ty>>' being compiled
+          with
+          [
+              _Ty=glm::vec2
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(626): warning C4251: 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>::_Mypair': class 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>'
+          with
+          [
+              _Ty=glm::vec3,
+              _Alloc=std::allocator<glm::vec3>
+          ]
+          and
+          [
+              _Ty=glm::vec3
+          ]
+          and
+          [
+              _Ty=glm::vec3,
+              _Alloc=std::allocator<glm::vec3>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(605): note: see declaration of 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=glm::vec3
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/impl/Export.hpp(36): note: see reference to class template instantiation 'std::vector<glm::vec3,std::allocator<_Ty>>' being compiled
+          with
+          [
+              _Ty=glm::vec3
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(626): warning C4251: 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>::_Mypair': class 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>'
+          with
+          [
+              _Ty=glm::vec4,
+              _Alloc=std::allocator<glm::vec4>
+          ]
+          and
+          [
+              _Ty=glm::vec4
+          ]
+          and
+          [
+              _Ty=glm::vec4,
+              _Alloc=std::allocator<glm::vec4>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(605): note: see declaration of 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=glm::vec4
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/impl/Export.hpp(37): note: see reference to class template instantiation 'std::vector<glm::vec4,std::allocator<_Ty>>' being compiled
+          with
+          [
+              _Ty=glm::vec4
+          ]
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/WorldLights.hpp(27): warning C4251: 'sre::WorldLights::lights': class 'std::vector<sre::Light,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'sre::WorldLights'
+          with
+          [
+              _Ty=sre::Light
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/WorldLights.hpp(27): note: see declaration of 'std::vector<sre::Light,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=sre::Light
+          ]
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Shader.hpp(43): warning C4251: 'sre::Uniform::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'sre::Uniform'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Shader.hpp(81): warning C4251: 'std::enable_shared_from_this<sre::Shader>::_Wptr': class 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of class 'std::enable_shared_from_this<sre::Shader>'
+          with
+          [
+              _Ty=sre::Shader
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\memory(2029): note: see declaration of 'std::weak_ptr<_Ty>'
+          with
+          [
+              _Ty=sre::Shader
+          ]
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Shader.hpp(103): warning C4251: 'sre::Shader::ShaderBuilder::vertexShaderStr': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'sre::Shader::ShaderBuilder'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Shader.hpp(104): warning C4251: 'sre::Shader::ShaderBuilder::fragmentShaderStr': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'sre::Shader::ShaderBuilder'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Shader.hpp(108): warning C4251: 'sre::Shader::ShaderBuilder::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'sre::Shader::ShaderBuilder'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Shader.hpp(176): warning C4251: 'sre::Shader::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'sre::Shader'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Shader.hpp(180): warning C4251: 'sre::Shader::uniforms': class 'std::vector<sre::Uniform,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'sre::Shader'
+          with
+          [
+              _Ty=sre::Uniform
+          ]
+  c:\users\fdfra\documents\github\ex6_wolf\include\sre\Shader.hpp(180): note: see declaration of 'std::vector<sre::Uniform,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=sre::Uniform
+          ]
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Shader.hpp(188): warning C4251: 'sre::Shader::attributes': class 'std::map<std::string,sre::Shader::ShaderAttribute,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'sre::Shader'
+          with
+          [
+              _Kty=std::string,
+              _Ty=sre::Shader::ShaderAttribute
+          ]
+  c:\users\fdfra\documents\github\ex6_wolf\include\sre\Shader.hpp(188): note: see declaration of 'std::map<std::string,sre::Shader::ShaderAttribute,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=std::string,
+              _Ty=sre::Shader::ShaderAttribute
+          ]
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(40): warning C4251: 'std::enable_shared_from_this<sre::Mesh>::_Wptr': class 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of class 'std::enable_shared_from_this<sre::Mesh>'
+          with
+          [
+              _Ty=sre::Mesh
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\memory(2029): note: see declaration of 'std::weak_ptr<_Ty>'
+          with
+          [
+              _Ty=sre::Mesh
+          ]
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(73): warning C4251: 'sre::Mesh::MeshBuilder::attributesFloat': class 'std::map<std::string,std::vector<float,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of class 'sre::Mesh::MeshBuilder'
+          with
+          [
+              _Ty=float,
+              _Kty=std::string
+          ]
+  c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(73): note: see declaration of 'std::map<std::string,std::vector<float,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=float,
+              _Kty=std::string
+          ]
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(74): warning C4251: 'sre::Mesh::MeshBuilder::attributesVec2': class 'std::map<std::string,std::vector<glm::vec2,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of class 'sre::Mesh::MeshBuilder'
+          with
+          [
+              _Ty=glm::vec2,
+              _Kty=std::string
+          ]
+  c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(74): note: see declaration of 'std::map<std::string,std::vector<glm::vec2,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=glm::vec2,
+              _Kty=std::string
+          ]
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(75): warning C4251: 'sre::Mesh::MeshBuilder::attributesVec3': class 'std::map<std::string,std::vector<glm::vec3,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of class 'sre::Mesh::MeshBuilder'
+          with
+          [
+              _Ty=glm::vec3,
+              _Kty=std::string
+          ]
+  c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(75): note: see declaration of 'std::map<std::string,std::vector<glm::vec3,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=glm::vec3,
+              _Kty=std::string
+          ]
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(76): warning C4251: 'sre::Mesh::MeshBuilder::attributesVec4': class 'std::map<std::string,std::vector<glm::vec4,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of class 'sre::Mesh::MeshBuilder'
+          with
+          [
+              _Ty=glm::vec4,
+              _Kty=std::string
+          ]
+  c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(76): note: see declaration of 'std::map<std::string,std::vector<glm::vec4,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=glm::vec4,
+              _Kty=std::string
+          ]
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(77): warning C4251: 'sre::Mesh::MeshBuilder::attributesIVec4': class 'std::map<std::string,std::vector<glm::i32vec4,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of class 'sre::Mesh::MeshBuilder'
+          with
+          [
+              _Ty=glm::i32vec4,
+              _Kty=std::string
+          ]
+  c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(77): note: see declaration of 'std::map<std::string,std::vector<glm::i32vec4,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=glm::i32vec4,
+              _Kty=std::string
+          ]
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(78): warning C4251: 'sre::Mesh::MeshBuilder::meshTopology': class 'std::vector<sre::MeshTopology,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'sre::Mesh::MeshBuilder'
+          with
+          [
+              _Ty=sre::MeshTopology
+          ]
+  c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(78): note: see declaration of 'std::vector<sre::MeshTopology,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=sre::MeshTopology
+          ]
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(79): warning C4251: 'sre::Mesh::MeshBuilder::indices': class 'std::vector<std::vector<uint16_t,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>' needs to have dll-interface to be used by clients of class 'sre::Mesh::MeshBuilder'
+          with
+          [
+              _Ty=uint16_t
+          ]
+  c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(79): note: see declaration of 'std::vector<std::vector<uint16_t,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>'
+          with
+          [
+              _Ty=uint16_t
+          ]
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(81): warning C4251: 'sre::Mesh::MeshBuilder::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'sre::Mesh::MeshBuilder'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(132): warning C4251: 'sre::Mesh::meshTopology': class 'std::vector<sre::MeshTopology,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'sre::Mesh'
+          with
+          [
+              _Ty=sre::MeshTopology
+          ]
+  c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(78): note: see declaration of 'std::vector<sre::MeshTopology,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=sre::MeshTopology
+          ]
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(134): warning C4251: 'sre::Mesh::shaderToVertexArrayObject': class 'std::map<unsigned int,unsigned int,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'sre::Mesh'
+          with
+          [
+              _Kty=unsigned int,
+              _Ty=unsigned int
+          ]
+  c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(134): note: see declaration of 'std::map<unsigned int,unsigned int,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=unsigned int,
+              _Ty=unsigned int
+          ]
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(135): warning C4251: 'sre::Mesh::elementBufferId': class 'std::vector<unsigned int,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'sre::Mesh'
+          with
+          [
+              _Ty=unsigned int
+          ]
+  c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(135): note: see declaration of 'std::vector<unsigned int,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=unsigned int
+          ]
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(138): warning C4251: 'sre::Mesh::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'sre::Mesh'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(139): warning C4251: 'sre::Mesh::attributeByName': class 'std::map<std::string,sre::Mesh::Attribute,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'sre::Mesh'
+          with
+          [
+              _Kty=std::string,
+              _Ty=sre::Mesh::Attribute
+          ]
+  c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(139): note: see declaration of 'std::map<std::string,sre::Mesh::Attribute,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=std::string,
+              _Ty=sre::Mesh::Attribute
+          ]
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(140): warning C4251: 'sre::Mesh::attributesFloat': class 'std::map<std::string,std::vector<float,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of class 'sre::Mesh'
+          with
+          [
+              _Ty=float,
+              _Kty=std::string
+          ]
+  c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(73): note: see declaration of 'std::map<std::string,std::vector<float,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=float,
+              _Kty=std::string
+          ]
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(141): warning C4251: 'sre::Mesh::attributesVec2': class 'std::map<std::string,std::vector<glm::vec2,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of class 'sre::Mesh'
+          with
+          [
+              _Ty=glm::vec2,
+              _Kty=std::string
+          ]
+  c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(74): note: see declaration of 'std::map<std::string,std::vector<glm::vec2,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=glm::vec2,
+              _Kty=std::string
+          ]
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(142): warning C4251: 'sre::Mesh::attributesVec3': class 'std::map<std::string,std::vector<glm::vec3,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of class 'sre::Mesh'
+          with
+          [
+              _Ty=glm::vec3,
+              _Kty=std::string
+          ]
+  c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(75): note: see declaration of 'std::map<std::string,std::vector<glm::vec3,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=glm::vec3,
+              _Kty=std::string
+          ]
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(143): warning C4251: 'sre::Mesh::attributesVec4': class 'std::map<std::string,std::vector<glm::vec4,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of class 'sre::Mesh'
+          with
+          [
+              _Ty=glm::vec4,
+              _Kty=std::string
+          ]
+  c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(76): note: see declaration of 'std::map<std::string,std::vector<glm::vec4,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=glm::vec4,
+              _Kty=std::string
+          ]
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(144): warning C4251: 'sre::Mesh::attributesIVec4': class 'std::map<std::string,std::vector<glm::i32vec4,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of class 'sre::Mesh'
+          with
+          [
+              _Ty=glm::i32vec4,
+              _Kty=std::string
+          ]
+  c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(77): note: see declaration of 'std::map<std::string,std::vector<glm::i32vec4,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=glm::i32vec4,
+              _Kty=std::string
+          ]
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(146): warning C4251: 'sre::Mesh::indices': class 'std::vector<std::vector<uint16_t,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>' needs to have dll-interface to be used by clients of class 'sre::Mesh'
+          with
+          [
+              _Ty=uint16_t
+          ]
+  c:\users\fdfra\documents\github\ex6_wolf\include\sre\Mesh.hpp(79): note: see declaration of 'std::vector<std::vector<uint16_t,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>'
+          with
+          [
+              _Ty=uint16_t
+          ]
+c:\users\fdfra\documents\github\wolfcpp\build\wolf\GameObject.h(8): fatal error C1083: Cannot open include file: 'SpriteComponent.hpp': No such file or directory
+  Wolf3D.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(626): warning C4251: 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>::_Mypair': class 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>'
+          with
+          [
+              _Ty=int,
+              _Alloc=std::allocator<int>
+          ]
+          and
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty=int,
+              _Alloc=std::allocator<int>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(605): note: see declaration of 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=int
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/impl/Export.hpp(32): note: see reference to class template instantiation 'std::vector<int,std::allocator<_Ty>>' being compiled
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(626): warning C4251: 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>::_Mypair': class 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>'
+          with
+          [
+              _Ty=float,
+              _Alloc=std::allocator<float>
+          ]
+          and
+          [
+              _Ty=float
+          ]
+          and
+          [
+              _Ty=float,
+              _Alloc=std::allocator<float>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(605): note: see declaration of 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=float
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/impl/Export.hpp(33): note: see reference to class template instantiation 'std::vector<float,std::allocator<_Ty>>' being compiled
+          with
+          [
+              _Ty=float
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(626): warning C4251: 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>::_Mypair': class 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>'
+          with
+          [
+              _Ty=uint16_t,
+              _Alloc=std::allocator<uint16_t>
+          ]
+          and
+          [
+              _Ty=uint16_t
+          ]
+          and
+          [
+              _Ty=uint16_t,
+              _Alloc=std::allocator<uint16_t>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(605): note: see declaration of 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=uint16_t
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/impl/Export.hpp(34): note: see reference to class template instantiation 'std::vector<uint16_t,std::allocator<_Ty>>' being compiled
+          with
+          [
+              _Ty=uint16_t
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(626): warning C4251: 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>::_Mypair': class 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>'
+          with
+          [
+              _Ty=glm::vec2,
+              _Alloc=std::allocator<glm::vec2>
+          ]
+          and
+          [
+              _Ty=glm::vec2
+          ]
+          and
+          [
+              _Ty=glm::vec2,
+              _Alloc=std::allocator<glm::vec2>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(605): note: see declaration of 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=glm::vec2
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/impl/Export.hpp(35): note: see reference to class template instantiation 'std::vector<glm::vec2,std::allocator<_Ty>>' being compiled
+          with
+          [
+              _Ty=glm::vec2
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(626): warning C4251: 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>::_Mypair': class 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>'
+          with
+          [
+              _Ty=glm::vec3,
+              _Alloc=std::allocator<glm::vec3>
+          ]
+          and
+          [
+              _Ty=glm::vec3
+          ]
+          and
+          [
+              _Ty=glm::vec3,
+              _Alloc=std::allocator<glm::vec3>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(605): note: see declaration of 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=glm::vec3
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/impl/Export.hpp(36): note: see reference to class template instantiation 'std::vector<glm::vec3,std::allocator<_Ty>>' being compiled
+          with
+          [
+              _Ty=glm::vec3
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(626): warning C4251: 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>::_Mypair': class 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc>>'
+          with
+          [
+              _Ty=glm::vec4,
+              _Alloc=std::allocator<glm::vec4>
+          ]
+          and
+          [
+              _Ty=glm::vec4
+          ]
+          and
+          [
+              _Ty=glm::vec4,
+              _Alloc=std::allocator<glm::vec4>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(605): note: see declaration of 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=glm::vec4
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/impl/Export.hpp(37): note: see reference to class template instantiation 'std::vector<glm::vec4,std::allocator<_Ty>>' being compiled
+          with
+          [
+              _Ty=glm::vec4
+          ]
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/WorldLights.hpp(27): warning C4251: 'sre::WorldLights::lights': class 'std::vector<sre::Light,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'sre::WorldLights'
+          with
+          [
+              _Ty=sre::Light
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/WorldLights.hpp(27): note: see declaration of 'std::vector<sre::Light,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=sre::Light
+          ]
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Shader.hpp(43): warning C4251: 'sre::Uniform::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'sre::Uniform'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Shader.hpp(81): warning C4251: 'std::enable_shared_from_this<sre::Shader>::_Wptr': class 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of class 'std::enable_shared_from_this<sre::Shader>'
+          with
+          [
+              _Ty=sre::Shader
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\memory(2029): note: see declaration of 'std::weak_ptr<_Ty>'
+          with
+          [
+              _Ty=sre::Shader
+          ]
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Shader.hpp(103): warning C4251: 'sre::Shader::ShaderBuilder::vertexShaderStr': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'sre::Shader::ShaderBuilder'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Shader.hpp(104): warning C4251: 'sre::Shader::ShaderBuilder::fragmentShaderStr': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'sre::Shader::ShaderBuilder'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Shader.hpp(108): warning C4251: 'sre::Shader::ShaderBuilder::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'sre::Shader::ShaderBuilder'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Shader.hpp(176): warning C4251: 'sre::Shader::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'sre::Shader'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Shader.hpp(180): warning C4251: 'sre::Shader::uniforms': class 'std::vector<sre::Uniform,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'sre::Shader'
+          with
+          [
+              _Ty=sre::Uniform
+          ]
+  c:\users\fdfra\documents\github\ex6_wolf\include\sre\Shader.hpp(180): note: see declaration of 'std::vector<sre::Uniform,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=sre::Uniform
+          ]
+c:\users\fdfra\documents\github\ex6_wolf\include\sre\Shader.hpp(188): warning C4251: 'sre::Shader::attributes': class 'std::map<std::string,sre::Shader::ShaderAttribute,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'sre::Shader'
+          with
+          [
+              _Kty=std::string,
+              _Ty=sre::Shader::ShaderAttribute
+          ]
+  c:\users\fdfra\documents\github\ex6_wolf\include\sre\Shader.hpp(188): note: see declaration of 'std::map<std::string,sre::Shader::ShaderAttribute,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=std::string,
+              _Ty=sre::Shader::ShaderAttribute
+          ]
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Mesh.hpp(40): warning C4251: 'std::enable_shared_from_this<sre::Mesh>::_Wptr': class 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of class 'std::enable_shared_from_this<sre::Mesh>'
+          with
+          [
+              _Ty=sre::Mesh
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\memory(2029): note: see declaration of 'std::weak_ptr<_Ty>'
+          with
+          [
+              _Ty=sre::Mesh
+          ]
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Mesh.hpp(73): warning C4251: 'sre::Mesh::MeshBuilder::attributesFloat': class 'std::map<std::string,std::vector<float,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of class 'sre::Mesh::MeshBuilder'
+          with
+          [
+              _Ty=float,
+              _Kty=std::string
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Mesh.hpp(73): note: see declaration of 'std::map<std::string,std::vector<float,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=float,
+              _Kty=std::string
+          ]
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Mesh.hpp(74): warning C4251: 'sre::Mesh::MeshBuilder::attributesVec2': class 'std::map<std::string,std::vector<glm::vec2,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of class 'sre::Mesh::MeshBuilder'
+          with
+          [
+              _Ty=glm::vec2,
+              _Kty=std::string
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Mesh.hpp(74): note: see declaration of 'std::map<std::string,std::vector<glm::vec2,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=glm::vec2,
+              _Kty=std::string
+          ]
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Mesh.hpp(75): warning C4251: 'sre::Mesh::MeshBuilder::attributesVec3': class 'std::map<std::string,std::vector<glm::vec3,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of class 'sre::Mesh::MeshBuilder'
+          with
+          [
+              _Ty=glm::vec3,
+              _Kty=std::string
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Mesh.hpp(75): note: see declaration of 'std::map<std::string,std::vector<glm::vec3,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=glm::vec3,
+              _Kty=std::string
+          ]
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Mesh.hpp(76): warning C4251: 'sre::Mesh::MeshBuilder::attributesVec4': class 'std::map<std::string,std::vector<glm::vec4,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of class 'sre::Mesh::MeshBuilder'
+          with
+          [
+              _Ty=glm::vec4,
+              _Kty=std::string
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Mesh.hpp(76): note: see declaration of 'std::map<std::string,std::vector<glm::vec4,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=glm::vec4,
+              _Kty=std::string
+          ]
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Mesh.hpp(77): warning C4251: 'sre::Mesh::MeshBuilder::attributesIVec4': class 'std::map<std::string,std::vector<glm::i32vec4,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of class 'sre::Mesh::MeshBuilder'
+          with
+          [
+              _Ty=glm::i32vec4,
+              _Kty=std::string
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Mesh.hpp(77): note: see declaration of 'std::map<std::string,std::vector<glm::i32vec4,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=glm::i32vec4,
+              _Kty=std::string
+          ]
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Mesh.hpp(78): warning C4251: 'sre::Mesh::MeshBuilder::meshTopology': class 'std::vector<sre::MeshTopology,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'sre::Mesh::MeshBuilder'
+          with
+          [
+              _Ty=sre::MeshTopology
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Mesh.hpp(78): note: see declaration of 'std::vector<sre::MeshTopology,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=sre::MeshTopology
+          ]
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Mesh.hpp(79): warning C4251: 'sre::Mesh::MeshBuilder::indices': class 'std::vector<std::vector<uint16_t,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>' needs to have dll-interface to be used by clients of class 'sre::Mesh::MeshBuilder'
+          with
+          [
+              _Ty=uint16_t
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Mesh.hpp(79): note: see declaration of 'std::vector<std::vector<uint16_t,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>'
+          with
+          [
+              _Ty=uint16_t
+          ]
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Mesh.hpp(81): warning C4251: 'sre::Mesh::MeshBuilder::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'sre::Mesh::MeshBuilder'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Mesh.hpp(132): warning C4251: 'sre::Mesh::meshTopology': class 'std::vector<sre::MeshTopology,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'sre::Mesh'
+          with
+          [
+              _Ty=sre::MeshTopology
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Mesh.hpp(78): note: see declaration of 'std::vector<sre::MeshTopology,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=sre::MeshTopology
+          ]
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Mesh.hpp(134): warning C4251: 'sre::Mesh::shaderToVertexArrayObject': class 'std::map<unsigned int,unsigned int,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'sre::Mesh'
+          with
+          [
+              _Kty=unsigned int,
+              _Ty=unsigned int
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Mesh.hpp(134): note: see declaration of 'std::map<unsigned int,unsigned int,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=unsigned int,
+              _Ty=unsigned int
+          ]
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Mesh.hpp(135): warning C4251: 'sre::Mesh::elementBufferId': class 'std::vector<unsigned int,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'sre::Mesh'
+          with
+          [
+              _Ty=unsigned int
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Mesh.hpp(135): note: see declaration of 'std::vector<unsigned int,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=unsigned int
+          ]
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Mesh.hpp(138): warning C4251: 'sre::Mesh::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'sre::Mesh'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Mesh.hpp(139): warning C4251: 'sre::Mesh::attributeByName': class 'std::map<std::string,sre::Mesh::Attribute,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'sre::Mesh'
+          with
+          [
+              _Kty=std::string,
+              _Ty=sre::Mesh::Attribute
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Mesh.hpp(139): note: see declaration of 'std::map<std::string,sre::Mesh::Attribute,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=std::string,
+              _Ty=sre::Mesh::Attribute
+          ]
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Mesh.hpp(140): warning C4251: 'sre::Mesh::attributesFloat': class 'std::map<std::string,std::vector<float,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of class 'sre::Mesh'
+          with
+          [
+              _Ty=float,
+              _Kty=std::string
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Mesh.hpp(73): note: see declaration of 'std::map<std::string,std::vector<float,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=float,
+              _Kty=std::string
+          ]
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Mesh.hpp(141): warning C4251: 'sre::Mesh::attributesVec2': class 'std::map<std::string,std::vector<glm::vec2,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of class 'sre::Mesh'
+          with
+          [
+              _Ty=glm::vec2,
+              _Kty=std::string
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Mesh.hpp(74): note: see declaration of 'std::map<std::string,std::vector<glm::vec2,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=glm::vec2,
+              _Kty=std::string
+          ]
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Mesh.hpp(142): warning C4251: 'sre::Mesh::attributesVec3': class 'std::map<std::string,std::vector<glm::vec3,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of class 'sre::Mesh'
+          with
+          [
+              _Ty=glm::vec3,
+              _Kty=std::string
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Mesh.hpp(75): note: see declaration of 'std::map<std::string,std::vector<glm::vec3,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=glm::vec3,
+              _Kty=std::string
+          ]
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Mesh.hpp(143): warning C4251: 'sre::Mesh::attributesVec4': class 'std::map<std::string,std::vector<glm::vec4,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of class 'sre::Mesh'
+          with
+          [
+              _Ty=glm::vec4,
+              _Kty=std::string
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Mesh.hpp(76): note: see declaration of 'std::map<std::string,std::vector<glm::vec4,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=glm::vec4,
+              _Kty=std::string
+          ]
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Mesh.hpp(144): warning C4251: 'sre::Mesh::attributesIVec4': class 'std::map<std::string,std::vector<glm::i32vec4,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>' needs to have dll-interface to be used by clients of class 'sre::Mesh'
+          with
+          [
+              _Ty=glm::i32vec4,
+              _Kty=std::string
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Mesh.hpp(77): note: see declaration of 'std::map<std::string,std::vector<glm::i32vec4,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>'
+          with
+          [
+              _Ty=glm::i32vec4,
+              _Kty=std::string
+          ]
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Mesh.hpp(146): warning C4251: 'sre::Mesh::indices': class 'std::vector<std::vector<uint16_t,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>' needs to have dll-interface to be used by clients of class 'sre::Mesh'
+          with
+          [
+              _Ty=uint16_t
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Mesh.hpp(79): note: see declaration of 'std::vector<std::vector<uint16_t,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>'
+          with
+          [
+              _Ty=uint16_t
+          ]
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/RenderPass.hpp(23): warning C4099: 'sre::RenderStats': type name first seen using 'struct' now seen using 'class'
+  c:\users\fdfra\documents\github\ex6_wolf\include\sre\RenderStats.hpp(14): note: see declaration of 'sre::RenderStats'
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/RenderPass.hpp(56): warning C4251: 'sre::RenderPass::RenderPassBuilder::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'sre::RenderPass::RenderPassBuilder'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/RenderPass.hpp(57): warning C4251: 'sre::RenderPass::RenderPassBuilder::framebuffer': class 'std::shared_ptr<sre::Framebuffer>' needs to have dll-interface to be used by clients of class 'sre::RenderPass::RenderPassBuilder'
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/RenderPass.hpp(49): note: see declaration of 'std::shared_ptr<sre::Framebuffer>'
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/RenderPass.hpp(127): warning C4251: 'sre::RenderPass::viewportOffset': struct 'glm::tvec2<glm::uint,0>' needs to have dll-interface to be used by clients of class 'sre::RenderPass'
+  c:\users\fdfra\documents\github\ex6_wolf\include\glm\detail/type_vec.hpp(196): note: see declaration of 'glm::tvec2<glm::uint,0>'
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/RenderPass.hpp(128): warning C4251: 'sre::RenderPass::viewportSize': struct 'glm::tvec2<glm::uint,0>' needs to have dll-interface to be used by clients of class 'sre::RenderPass'
+  c:\users\fdfra\documents\github\ex6_wolf\include\glm\detail/type_vec.hpp(196): note: see declaration of 'glm::tvec2<glm::uint,0>'
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/RenderPass.hpp(131): warning C4251: 'sre::RenderPass::lastFramebuffer': class 'std::shared_ptr<sre::Framebuffer>' needs to have dll-interface to be used by clients of class 'sre::RenderPass'
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/RenderPass.hpp(49): note: see declaration of 'std::shared_ptr<sre::Framebuffer>'
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Renderer.hpp(84): warning C4251: 'sre::Renderer::framebufferObjects': class 'std::vector<sre::Framebuffer *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'sre::Renderer'
+          with
+          [
+              _Ty=sre::Framebuffer *
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Renderer.hpp(84): note: see declaration of 'std::vector<sre::Framebuffer *,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=sre::Framebuffer *
+          ]
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Renderer.hpp(85): warning C4251: 'sre::Renderer::meshes': class 'std::vector<sre::Mesh *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'sre::Renderer'
+          with
+          [
+              _Ty=sre::Mesh *
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Renderer.hpp(85): note: see declaration of 'std::vector<sre::Mesh *,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=sre::Mesh *
+          ]
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Renderer.hpp(86): warning C4251: 'sre::Renderer::shaders': class 'std::vector<sre::Shader *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'sre::Renderer'
+          with
+          [
+              _Ty=sre::Shader *
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Renderer.hpp(86): note: see declaration of 'std::vector<sre::Shader *,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=sre::Shader *
+          ]
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Renderer.hpp(87): warning C4251: 'sre::Renderer::textures': class 'std::vector<sre::Texture *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'sre::Renderer'
+          with
+          [
+              _Ty=sre::Texture *
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Renderer.hpp(87): note: see declaration of 'std::vector<sre::Texture *,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=sre::Texture *
+          ]
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Renderer.hpp(88): warning C4251: 'sre::Renderer::spriteAtlases': class 'std::vector<sre::SpriteAtlas *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'sre::Renderer'
+          with
+          [
+              _Ty=sre::SpriteAtlas *
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Renderer.hpp(88): note: see declaration of 'std::vector<sre::SpriteAtlas *,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=sre::SpriteAtlas *
+          ]
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/SDLRenderer.hpp(44): warning C4251: 'sre::SDLRenderer::frameUpdate': class 'std::function<void (float)>' needs to have dll-interface to be used by clients of class 'sre::SDLRenderer'
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/SDLRenderer.hpp(44): note: see declaration of 'std::function<void (float)>'
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/SDLRenderer.hpp(45): warning C4251: 'sre::SDLRenderer::frameRender': class 'std::function<void (void)>' needs to have dll-interface to be used by clients of class 'sre::SDLRenderer'
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/SDLRenderer.hpp(45): note: see declaration of 'std::function<void (void)>'
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/SDLRenderer.hpp(46): warning C4251: 'sre::SDLRenderer::keyEvent': class 'std::function<void (SDL_Event &)>' needs to have dll-interface to be used by clients of class 'sre::SDLRenderer'
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/SDLRenderer.hpp(46): note: see declaration of 'std::function<void (SDL_Event &)>'
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/SDLRenderer.hpp(47): warning C4251: 'sre::SDLRenderer::mouseEvent': class 'std::function<void (SDL_Event &)>' needs to have dll-interface to be used by clients of class 'sre::SDLRenderer'
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/SDLRenderer.hpp(46): note: see declaration of 'std::function<void (SDL_Event &)>'
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/SDLRenderer.hpp(48): warning C4251: 'sre::SDLRenderer::controllerEvent': class 'std::function<void (SDL_Event &)>' needs to have dll-interface to be used by clients of class 'sre::SDLRenderer'
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/SDLRenderer.hpp(46): note: see declaration of 'std::function<void (SDL_Event &)>'
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/SDLRenderer.hpp(50): warning C4251: 'sre::SDLRenderer::joystickEvent': class 'std::function<void (SDL_Event &)>' needs to have dll-interface to be used by clients of class 'sre::SDLRenderer'
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/SDLRenderer.hpp(46): note: see declaration of 'std::function<void (SDL_Event &)>'
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/SDLRenderer.hpp(52): warning C4251: 'sre::SDLRenderer::touchEvent': class 'std::function<void (SDL_Event &)>' needs to have dll-interface to be used by clients of class 'sre::SDLRenderer'
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/SDLRenderer.hpp(46): note: see declaration of 'std::function<void (SDL_Event &)>'
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/SDLRenderer.hpp(53): warning C4251: 'sre::SDLRenderer::otherEvent': class 'std::function<void (SDL_Event &)>' needs to have dll-interface to be used by clients of class 'sre::SDLRenderer'
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/SDLRenderer.hpp(46): note: see declaration of 'std::function<void (SDL_Event &)>'
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/SDLRenderer.hpp(88): warning C4251: 'sre::SDLRenderer::windowTitle': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'sre::SDLRenderer'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Texture.hpp(37): warning C4251: 'std::enable_shared_from_this<sre::Texture>::_Wptr': class 'std::weak_ptr<_Ty>' needs to have dll-interface to be used by clients of class 'std::enable_shared_from_this<sre::Texture>'
+          with
+          [
+              _Ty=sre::Texture
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\memory(2029): note: see declaration of 'std::weak_ptr<_Ty>'
+          with
+          [
+              _Ty=sre::Texture
+          ]
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Texture.hpp(66): warning C4251: 'sre::Texture::TextureBuilder::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'sre::Texture::TextureBuilder'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Texture.hpp(104): warning C4251: 'sre::Texture::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'sre::Texture'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Material.hpp(65): warning C4251: 'sre::Material::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'sre::Material'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Material.hpp(66): warning C4251: 'sre::Material::shader': class 'std::shared_ptr<_Ty>' needs to have dll-interface to be used by clients of class 'sre::Material'
+          with
+          [
+              _Ty=sre::Shader
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\memory(2019): note: see declaration of 'std::shared_ptr<_Ty>'
+          with
+          [
+              _Ty=sre::Shader
+          ]
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Material.hpp(74): warning C4251: 'sre::Material::textureValues': class 'std::vector<sre::Material::Uniform<std::shared_ptr<sre::Texture>>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'sre::Material'
+          with
+          [
+              _Ty=sre::Material::Uniform<std::shared_ptr<sre::Texture>>
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Material.hpp(74): note: see declaration of 'std::vector<sre::Material::Uniform<std::shared_ptr<sre::Texture>>,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=sre::Material::Uniform<std::shared_ptr<sre::Texture>>
+          ]
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Material.hpp(75): warning C4251: 'sre::Material::vectorValues': class 'std::vector<sre::Material::Uniform<glm::vec4>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'sre::Material'
+          with
+          [
+              _Ty=sre::Material::Uniform<glm::vec4>
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Material.hpp(75): note: see declaration of 'std::vector<sre::Material::Uniform<glm::vec4>,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=sre::Material::Uniform<glm::vec4>
+          ]
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Material.hpp(76): warning C4251: 'sre::Material::floatValues': class 'std::vector<sre::Material::Uniform<float>,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'sre::Material'
+          with
+          [
+              _Ty=sre::Material::Uniform<float>
+          ]
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Material.hpp(76): note: see declaration of 'std::vector<sre::Material::Uniform<float>,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=sre::Material::Uniform<float>
+          ]
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Material.hpp(71): warning C4251: 'sre::Material::Uniform<std::shared_ptr<sre::Texture>>::value': class 'std::shared_ptr<sre::Texture>' needs to have dll-interface to be used by clients of struct 'sre::Material::Uniform<std::shared_ptr<sre::Texture>>'
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Framebuffer.hpp(31): note: see declaration of 'std::shared_ptr<sre::Texture>'
+  C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\include\sre/Material.hpp(88): note: see reference to class template instantiation 'sre::Material::Uniform<std::shared_ptr<sre::Texture>>' being compiled
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\Wolf\Wolf3D.cpp(55): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\Wolf\Wolf3D.cpp(100): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\Wolf\Wolf3D.cpp(201): warning C4018: '<': signed/unsigned mismatch
+  WorldMap.cpp
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\Wolf\WorldMap.cpp(24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\Wolf\WorldMap.cpp(33): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\Wolf\WorldMap.cpp(34): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\Wolf\WorldMap.cpp(35): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Generating Code...

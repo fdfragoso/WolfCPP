@@ -332,15 +332,17 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\Wolf\FirstPersonController.cpp" />
     <ClCompile Include="Component.cpp" />
     <ClCompile Include="GameObject.cpp" />
+    <ClInclude Include="..\..\..\Ex6_Wolf\Wolf\Wolf3D.hpp" />
+    <ClInclude Include="..\..\Wolf\Damageable.hpp" />
     <ClInclude Include="C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\Wolf\FirstPersonController.hpp" />
     <ClCompile Include="C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\Wolf\Wolf3D.cpp" />
-    <ClInclude Include="C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\Wolf\Wolf3D.hpp" />
     <ClCompile Include="C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\Wolf\WorldMap.cpp" />
     <ClInclude Include="C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\Wolf\WorldMap.hpp" />
-    <ClInclude Include="Component.h" />
+    <ClInclude Include="Component.hpp" />
     <ClInclude Include="Damageable.h" />
     <ClInclude Include="EnemyComponent.h" />
     <ClInclude Include="GameObject.h" />
+    <ClInclude Include="Wolf3D.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\build\ZERO_CHECK.vcxproj">

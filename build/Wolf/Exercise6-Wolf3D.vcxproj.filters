@@ -21,9 +21,6 @@
     <ClInclude Include="C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\Wolf\FirstPersonController.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\Wolf\Wolf3D.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\Wolf\WorldMap.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -36,7 +33,16 @@
     <ClInclude Include="GameObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Component.h">
+    <ClInclude Include="Wolf3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Ex6_Wolf\Wolf\Wolf3D.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Wolf\Damageable.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
