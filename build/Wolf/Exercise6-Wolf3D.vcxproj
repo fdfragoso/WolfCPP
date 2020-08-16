@@ -330,6 +330,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\Wolf\FirstPersonController.cpp" />
+    <ClCompile Include="Component.cpp" />
+    <ClCompile Include="GameObject.cpp" />
     <ClInclude Include="C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\Wolf\FirstPersonController.hpp" />
     <ClCompile Include="C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\Wolf\Wolf3D.cpp" />
     <ClInclude Include="C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\Wolf\Wolf3D.hpp" />

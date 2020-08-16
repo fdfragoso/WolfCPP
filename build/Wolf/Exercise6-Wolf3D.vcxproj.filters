@@ -10,6 +10,12 @@
     <ClCompile Include="C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\Wolf\WorldMap.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\Users\fdfra\Documents\GitHub\Ex6_Wolf\Wolf\FirstPersonController.hpp">
